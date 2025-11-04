@@ -43,11 +43,34 @@ public class Ex1 : MonoBehaviour
         //controllo se hanno abbastanza punti per vincere
 
         Debug.Log("p1");
-        p1.IsWinner();
+        if (p1.IsWinner()){
+            Debug.Log("congratulazioni hai vinto");
+        }
+        else
+        {
+            Debug.Log("Non hai ancora raggiunto abbastanza punti per vincere");
+
+        }
         Debug.Log("p2");
-        p2.IsWinner();
+        if (p2.IsWinner())
+        {
+            Debug.Log("congratulazioni hai vinto");
+        }
+        else
+        {
+            Debug.Log("Non hai ancora raggiunto abbastanza punti per vincere");
+
+        }
         Debug.Log("p3");
-        p3.IsWinner();
+        if (p3.IsWinner())
+        {
+            Debug.Log("congratulazioni hai vinto");
+        }
+        else
+        {
+            Debug.Log("Non hai ancora raggiunto abbastanza punti per vincere");
+
+        }
 
         // parte 4 con una classe enemy
 

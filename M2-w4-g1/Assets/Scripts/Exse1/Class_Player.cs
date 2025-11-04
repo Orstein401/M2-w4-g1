@@ -29,16 +29,10 @@ public class Player
             return punteggio = punt;
         }
     }
-    public void IsWinner()
+    public bool IsWinner()
     {
-        if (punteggio >= 100)
-        {
-            Debug.Log("congratulazioni hai vinto");
-        }
-        else
-        {
-            Debug.Log("Non hai ancora raggiunto abbastanza punti per vincere");
-        }
+        return (punteggio >= 100);
+
     }
 
     public void AttackEnemy(Enemy enemy, int danno)
