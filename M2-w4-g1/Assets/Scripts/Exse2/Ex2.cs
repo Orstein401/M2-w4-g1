@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class Ex2 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] string stringa;
+   
+
     void Start()
     {
-        
+        string stringo="";
+        for (int i = 0; i < stringa.Length; i++)
+        {
+            if (stringa[i] != ';' && stringa[i]!='(' && stringa[i]!=')')
+            {
+                stringo += stringa[i];
+            }
+            else
+            {
+                Debug.Log(stringo);
+                stringo = "";
+            }
+
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
 }
