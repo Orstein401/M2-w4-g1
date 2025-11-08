@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0064f873675e2c4db0a9d85aa193d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringa: ciao(sono)(un qualcosa)
+  stringa: (ciao)(sono);(qualcosa)
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

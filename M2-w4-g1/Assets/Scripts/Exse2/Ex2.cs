@@ -16,7 +16,7 @@ public class Ex2 : MonoBehaviour
             {
                 stringo += stringa[i];
             }
-            else
+            else if(stringo!="")
             {
                 Debug.Log(stringo);
                 stringo = "";
